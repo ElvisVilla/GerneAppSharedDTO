@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct LoginResponseDTO: Codable {
+public struct LoginResponseDTO: Codable {
     
-    let error: Bool
-    var reason: String? = nil
-    var token: String? = nil
-    var userId: UUID? = nil
+    public let error: Bool
+    public var reason: String? = nil
+    public var token: String? = nil
+    public var userId: UUID? = nil
     
 }
